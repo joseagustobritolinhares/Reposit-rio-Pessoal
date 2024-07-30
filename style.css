@@ -20,7 +20,8 @@ header {
     padding         : 0 20px;
     background-color: rgb(18, 29, 54);
 }
-.imagen-Menu :hover{
+
+.imagen-Menu :hover {
     width: 150px;
     right: 26px;
 }
@@ -148,7 +149,7 @@ article {
     display        : flex;
     justify-content: space-evenly;
     padding-top    : 50px;
-    border         : 5px solid black;
+    border         : 2px solid black;
 }
 
 .img-biografia {
@@ -159,14 +160,8 @@ article {
 }
 
 .img-biografia img {
-    max-width    : auto;
-    margin       : 30px;
-    border-radius: 100%;
-    border       : 4px solid black;
-}
-
-.img-biografia img:hover {
-    border: 4px solid rgb(206, 217, 237);
+    max-width: auto;
+    margin   : 30px;
 }
 
 .conteudo-biografia {
@@ -196,14 +191,14 @@ article {
 
 
 .conteudo-biografia p {
-    font-size      : 18px;
-    text-indent    : 10%;
+    font-size  : 18px;
+    text-indent: 10%;
     line-height: 25px;
-    font-family    : 'Roboto', Courier, monospace;
-    width          : auto;
-    text-align     : center;
-    margin         : 6%;
-    color          : rgba(206, 217, 237, 0.788);
+    font-family: 'Roboto', Courier, monospace;
+    width      : auto;
+    text-align : center;
+    margin     : 6%;
+    color      : rgba(206, 217, 237, 0.788);
 }
 
 
